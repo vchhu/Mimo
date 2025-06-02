@@ -1,0 +1,9 @@
+body {
+  background-color: lightGray;
+}
+
+div {
+  background-color: white;
+  display: inline;
+  width: 50%;
+}
