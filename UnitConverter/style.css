@@ -1,0 +1,17 @@
+body {
+  background-color: darkslateblue;
+}
+
+h1 {
+  color: #FFFFFF;
+}
+
+input {
+  width: 37%;
+}
+
+p {
+  padding: 5px'
+  background-color: slateblue;
+  color: white;
+}
