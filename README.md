@@ -1,2 +1,2 @@
 # Mimo
-#This is for my Mimo course projects
+#This is for my Mimo full-Stack Developer course projects
