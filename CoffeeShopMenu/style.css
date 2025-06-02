@@ -1,0 +1,45 @@
+body {
+  font-family: Georgia;
+  margin: 0 auto;
+}
+
+div {
+  width: 100%;
+  padding: 5px;
+}
+
+ul {
+  width: 50%;
+}
+
+img {
+  width: 120px;
+  height: 150px;
+}
+
+h1 {
+  font-size: 18px;
+}
+
+p {
+  font-size: 14px;
+}
+
+ul, li {
+  list-style: none;
+  font-size: 12px;
+}
+
+.header {
+  text-align: center;
+  background-color: antiquewhite;
+  color: darkgoldenrod;
+  margin-bottom: 10px;
+}
+
+.menu {
+  background-color: lavender;
+  color: slategray;
+  display: flex;
+  flex-direction: row-reverse;
+}
