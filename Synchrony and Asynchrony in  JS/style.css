@@ -1,0 +1,33 @@
+body {
+  background-color: white;
+  font-family: sans-serif;
+}
+
+header {
+  background-color: salmon;
+}
+
+main {
+  margin: auto;
+  width: 80%;
+  display: flex;
+}
+
+.bot-chatbox {
+  background-color: whitesmoke;
+}
+
+.user-chatbox {
+  background-color: dodgerblue;
+  color: white;
+}
+
+button {
+  background-color: dodgerblue;
+  color: white;
+}
+
+button:hover {
+  background-color: whitesmoke;
+  color: dodgerblue;
+}
