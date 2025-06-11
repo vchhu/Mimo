@@ -27,14 +27,14 @@ function display() {
     //Display question based off current num as index for qArray
     text.innerHTML = questions[currQ];
     for (let i = 0; i < 4; i++) {
-      let btn = document.getElementById('choice${i}');
+      let btn = document.getElementById(`choice${i}`);
       btn.innerHTML = choices[currQ][i];
       btn.value = choices[currQ][i];
     }
   }
   else {
     //Display score & restart button
-    text.innerHTML = 'You scored ${score} out of ${currQ}';
+    text.innerHTML = `You scored ${score} out of ${currQ}`;
     for (let i = 0; i < 4; i++) btnsParent.removeChild();
     let restartBtn = document.createElement("button");
     restartBtn.innerHTML = "Play Again?";
@@ -56,7 +56,7 @@ function restart() {
   btnsParent.removeChild();
   for (let i = 0; i < 4; i++) {
     let btn = document.createElement("button");
-    btn.id = 'choice${i}';
+    btn.id = `choice${i}`;
     btnsParent.appendChild(btn);
   }
   display();
