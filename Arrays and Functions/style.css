@@ -1,3 +1,17 @@
 body {
-  background-color: lightgray;
+  background: linear-gradient(to bottom, #ffffff 0%, #00ced1 100%);
+  color: black;
+}
+
+button {
+  background-color: #00ced1
+  color: white;
+}
+
+#card {
+  background-color: white;
+}
+
+.restart {
+  color: #00ced1;
 }
