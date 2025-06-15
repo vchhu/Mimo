@@ -3,17 +3,32 @@ body {
 }
 
 img {
-  width: 70%;
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
 }
 
-.first {
-  
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
 }
 
-.second {
-  
+.item {
+  flex: 25%;
+  max-width: 25%;
 }
 
-.third {
-  
+@media (max-width: 800px) {
+  .item {
+    flex: 50%;
+    max-width:50%;
+  }
+}
+
+@media (max-width: 600px) {
+  .item {
+    flex: 100%;
+    max-width: 100%;
+  }
 }
