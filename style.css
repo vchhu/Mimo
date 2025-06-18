@@ -12,6 +12,7 @@ a {
   padding: 10px;
   margin: 10px;
   color: slateblue;
+  display: block;
 }
 
 img {
