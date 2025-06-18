@@ -5,6 +5,18 @@ body {
   text-align: center;
 }
 
+img {
+  border-radius: 75px;
+}
+
+h2 {
+  font-size: 18px;
+}
+
+nav {
+  display: block;
+}
+
 a {
   background-color: white;
   font-size: 20px;
@@ -12,12 +24,4 @@ a {
   padding: 10px;
   margin: 10px;
   color: slateblue;
-}
-
-img {
-  border-radius: 75px;
-}
-
-h2 {
-  font-size: 18px;
 }
