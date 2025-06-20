@@ -1,0 +1,35 @@
+body {
+    background-color: cornflowerblue;
+    text-align: center;
+}
+
+#pets {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+#treats {
+    display: flex;
+}
+
+.emoji {
+    font-size: 70px;
+    cursor: pointer;
+}
+
+.pet, .treat {
+    background-color: white;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.ranAway {
+    cursor: not-allowed;
+    opacity: 0.5;
+}
+
+.selected {
+    border: 2px solid black;
+    cursor: pointer;
+}

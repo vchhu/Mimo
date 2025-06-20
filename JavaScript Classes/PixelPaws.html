@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Pixel Paws</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <h1>Pixel Paws</h1>
+        <div id="pets">
+            <div id="pet1" class="pet" onclick="selectPet(1)">
+                <div class="emoji"></div>
+                <p>Saturation Level:<span id="hunger1">100</span>%</p>
+                <p id="message1"></p>
+            </div>
+            <div id="pet2" class="pet" onclick="selectPet(2)">
+                <div class="emoji"></div>
+                <p>Saturation Level:<span id="hunger2">100</span>%</p>
+                <p id="message2"></p>
+            </div>
+        </div>
+        <div id="treats">
+            <div id="treat1" class="treat" onclick="feedPet(1)">
+                <div class="emoji"></div>
+            </div>
+            <div id="treat2" class="treat" onclick="feedPet(5)">
+                <div class="emoji"></div>
+            </div>
+        </div>
+    </body>
+</html>
