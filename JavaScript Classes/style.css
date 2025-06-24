@@ -1,6 +1,11 @@
 body {
     background-color: cornflowerblue;
+    font-family: Arial, sans-serif;
     text-align: center;
+}
+
+h1 {
+    font-size: 70px;
 }
 
 #pets {
@@ -11,6 +16,11 @@ body {
 
 #treats {
     display: flex;
+    justify-content: center;
+}
+
+#treat1 {
+    margin-right: 15px;
 }
 
 .emoji {
@@ -22,6 +32,9 @@ body {
     background-color: white;
     border-radius: 10px;
     cursor: pointer;
+    margin: 8px;
+    padding: 8px;
+    width: 33%;
 }
 
 .ranAway {

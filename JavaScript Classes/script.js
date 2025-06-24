@@ -14,6 +14,7 @@ class Pet {
         if (this.hunger === 0) {
             this.messageElement.innerHTML = "Pet ran away";
             this.displayElement.classList.add("ranAway");
+            this.displayElement.onclick = null;
         }
     }
 
@@ -24,10 +25,30 @@ class Pet {
     }
 }
 
-function selectPet(num) {
-    //toggles selection class
+const cat = new Pet(1);
+const dog = new Pet(2);
+
+let selectedPet = null;
+const catElement = document.getElementById("pet1");
+const dogElement = document.getElementById("pet2");
+
+function selectPet(id) {
+    catElement.classList.remove("selected");
+    dogElement.classList.remove("selected");
+
+    selectedPet = id;
+    if (id === 1) catElement.classList.add("selected");
+    else dogElement.classList.add("selected");
 }
 
 function feedPet(amount) {
-    //feeds selected pet
+    if (selectedPet === 1) cat.feed(amount);
+    else dog.feed(amount);
 }
+
+setInterval(() => {
+    cat.increaseHunger();
+    dog.increaseHunger();
+}, 5000);
+
+selectPet(1);
