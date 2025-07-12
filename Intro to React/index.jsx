@@ -6,8 +6,8 @@ const ScoreBoard = () => {
     return (
         <div>
             <h1>Score Keeper</h1>
-            <ScoreKeeper />
-            <ScoreKeeper />
+            <ScoreKeeper teamName={"One"}/>
+            <ScoreKeeper teamName={"Two"}/>
         </div>
     );
 };

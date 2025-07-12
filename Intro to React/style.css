@@ -1,0 +1,26 @@
+div {
+    background-color: white;
+    width: 80%;
+    height: 80%;
+    justify-content: center;
+}
+
+h1 {
+    color: darkcyan;
+}
+
+p {
+    color: black;
+}
+
+button {
+    background-color: darkcyan;
+    color: white;
+}
+
+#root {
+    background-color: lightcyan;
+    display: flex;
+    width: 100%;
+    height: auto;
+}
