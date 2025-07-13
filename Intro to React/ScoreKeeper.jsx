@@ -1,12 +1,12 @@
-import React from "react";
+import React, { useState } from "react";
 
 const ScoreKeeper = (props) => {
-    let score = 0;
+    const [score, setScore] = useState(0);
 
     return (
         <div>
             <p>Team {props.teamName}: {score}</p>
-            <button onClick={() => score++}>+1 Team {teamName}</button>
+            <button onClick={() => setScore(score++)}>+1 Team {props.teamName}</button>
         </div>
     );
 };
