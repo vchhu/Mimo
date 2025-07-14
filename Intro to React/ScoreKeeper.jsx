@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import "./style.css";
 
 const ScoreKeeper = (props) => {
     const [score, setScore] = useState(0);
